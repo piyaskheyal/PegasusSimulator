@@ -287,7 +287,7 @@ class UIDelegate:
                 # Create the multirotor configuration
                 config_multirotor = MultirotorConfig()
                 config_multirotor.backends = [backend]
-                config_multirotor.graphical_sensors = [MonocularCamera("camera", config={"update_rate": 60.0})]
+                # config_multirotor.graphical_sensors = [MonocularCamera("camera", config={"update_rate": 60.0})]
                 
                 # Try to spawn the selected robot in the world to the specified namespace
                 Multirotor(
