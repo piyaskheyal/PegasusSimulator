@@ -85,7 +85,6 @@
       </collision>
     </link>
     <link name="rotor0">
-      <origin xyz="0.174 -0.174 0.06" rpy="0 0 0"/>
       <inertial>
           <mass value="0.016076923076923075"/>
           <inertia ixx="3.8464910483993325e-07" ixy="0" ixz="0" iyy="2.6115851691700804e-05" iyz="0" izz="2.649858234714004e-05"/>
@@ -110,6 +109,7 @@
       </collision>
     </link>
     <joint name="joint0" type="revolute">
+      <origin xyz="0.174 -0.174 0.06" rpy="0 0 0"/>
       <parent link="base_link"/>
       <child link="rotor0"/>
       <axis>
@@ -118,7 +118,6 @@
       </axis>
     </joint>
     <link name="rotor1">
-      <origin xyz="-0.174 0.174 0.06" rpy="0 0 0"/>
       <inertial>
           <mass value="0.016076923076923075"/>
           <inertia ixx="3.8464910483993325e-07" ixy="0" ixz="0" iyy="2.6115851691700804e-05" iyz="0" izz="2.649858234714004e-05"/>
@@ -143,6 +142,7 @@
       </collision>
     </link>
     <joint name="joint1" type="revolute">
+      <origin xyz="-0.174 0.174 0.06" rpy="0 0 0"/>
       <parent link="base_link"/>
       <child link="rotor1"/>
       <axis>
@@ -151,7 +151,6 @@
       </axis>
     </joint>
     <link name="rotor2">
-      <origin xyz="0.174 0.174 0.06" rpy="0 0 0"/>
       <inertial>
           <mass value="0.016076923076923075"/>
           <inertia ixx="3.8464910483993325e-07" ixy="0" ixz="0" iyy="2.6115851691700804e-05" iyz="0" izz="2.649858234714004e-05"/>
@@ -176,6 +175,7 @@
       </collision>
     </link>
     <joint name="joint2" type="revolute">
+      <origin xyz="0.174 0.174 0.06" rpy="0 0 0"/>
       <parent link="base_link"/>
       <child link="rotor2"/>
       <axis>
@@ -184,7 +184,6 @@
       </axis>
     </joint>
     <link name="rotor3">
-      <origin xyz="-0.174 -0.174 0.06" rpy="0 0 0"/>
       <inertial>
           <mass value="0.016076923076923075"/>
           <inertia ixx="3.8464910483993325e-07" ixy="0" ixz="0" iyy="2.6115851691700804e-05" iyz="0" izz="2.649858234714004e-05"/>
@@ -209,6 +208,7 @@
       </collision>
     </link>
     <joint name="joint3" type="revolute">
+      <origin xyz="-0.174 -0.174 0.06" rpy="0 0 0"/>
       <parent link="base_link"/>
       <child link="rotor3"/>
       <axis>
