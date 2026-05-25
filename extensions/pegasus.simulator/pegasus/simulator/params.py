@@ -31,7 +31,8 @@ ROBOTS_ASSETS = ASSET_PATH + "/Robots"
 ROBOTS = {
     "Iris": ROBOTS_ASSETS + "/Iris/iris.usd",
     "Pegasus": ROBOTS_ASSETS + "/Pegasus/pegasus.usd",
-    "x500_generic": ROBOTS_ASSETS + "/x500/x500_generic.usd"
+    "x500_generic": ROBOTS_ASSETS + "/x500/x500_generic.usd",
+    "x500_depth": ROBOTS_ASSETS + "/x500/x500_depth.usd",
 } #, "Flying Cube": ROBOTS_ASSETS + "/iris_cube.usda"}
 
 # Setup the default simulation environments path
@@ -113,6 +114,7 @@ THUMBNAILS = {
     "Iris": ROBOTS_ASSETS + "/Iris/iris_thumbnail.png",
     "Pegasus": ROBOTS_ASSETS + "/Pegasus/pegasus_thumbnail.png",
     "x500_generic": ROBOTS_ASSETS + "/x500/thumbnails/x500_generic.png",
+    "x500_depth": ROBOTS_ASSETS + "/x500/thumbnails/x500_depth.png",
 }
 
 # Define where the thumbail of the world is located
