@@ -34,6 +34,7 @@ ROBOTS = {
     "x500_generic": ROBOTS_ASSETS + "/x500/x500_generic.usd",
     "x500_depth": ROBOTS_ASSETS + "/x500/x500_depth.usd",
     "x500_vertical_lidar2d": ROBOTS_ASSETS + "/x500/x500_vertical_lidar2d.usd",
+    "x500_lidar3d": ROBOTS_ASSETS + "/x500/x500_lidar3d.usd",
 } #, "Flying Cube": ROBOTS_ASSETS + "/iris_cube.usda"}
 
 # Setup the default simulation environments path
@@ -117,6 +118,7 @@ THUMBNAILS = {
     "x500_generic": ROBOTS_ASSETS + "/x500/thumbnails/x500_generic.png",
     "x500_depth": ROBOTS_ASSETS + "/x500/thumbnails/x500_depth.png",
     "x500_vertical_lidar2d": ROBOTS_ASSETS + "/x500/thumbnails/x500_vertical_lidar2d.png",
+    "x500_lidar3d": ROBOTS_ASSETS + "/x500/thumbnails/x500_lidar3d.png",
 }
 
 # Define where the thumbail of the world is located
